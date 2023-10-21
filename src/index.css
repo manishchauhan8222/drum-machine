@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: #feeae6;
+
+}
+.drum-pad {
+  height: 100px;
+  margin-right: 6px;
+  margin-bottom: 7px;
+  width: 150px;
+  background: #feeae6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  color: #442C2E;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.pads {
+  display: flex;
+  flex-wrap: wrap;
+  width: 470px;
+
+}
+
+#drum-machine {
+  box-sizing: border-box;
+  position: absolute;
+  top: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 650px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #FEDBD0;
+}
+
+#display {
+  margin-top: 25px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  background: #feeae6;
+  color: #442C2E;
+  width: 80%;
+
+
+}
+
+#heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4em;
+  color: #442c2ebe;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 15%;
+  width: max-content;
+  
+}
+
+
+
+button:active{
+    background:#442c2e4d;
+}
+
+
+

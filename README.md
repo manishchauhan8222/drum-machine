@@ -1,0 +1,1 @@
+A simple drum machine using ReactJS which can play tunes by either pressing the displayed keys or clicking on the same.
